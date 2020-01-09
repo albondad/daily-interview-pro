@@ -19,3 +19,6 @@ print two_sum([4,7,1,-3,2], 5)
 
 Try to do it in a single pass of the list.
 ```
+
+# My Solution
+I use a netsed loop that adds each element with eacher other, returning True if the target number is equal to k, and false otherwise.

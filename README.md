@@ -1,2 +1,2 @@
 # Daily Interview Pro Problems
-A place to store all the solutions to the Daily Interview Pro problems.
+A place to store my solutions from Daily Interview Pro, a tool to help practice interview programming problems.

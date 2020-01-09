@@ -1,4 +1,4 @@
-# PROBLEM
+# Problem
 PROBLEM ASKED BY DAILY INTERVIEW PRO
 
 This problem was recently asked by Google:

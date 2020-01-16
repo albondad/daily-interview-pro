@@ -20,21 +20,15 @@ def zigzag_order(tree):
             layer.append(nodes[i].value)
             if (hasattr(nodes[i], 'right')):
                 if (nodes[i].right.__class__.__name__ == "Node"):
-                    print ("Right value is a node.")
                     if (switched):
                         newNodes.insert(0, nodes[i].right)
                     else:
                         newNodes.append(nodes[i].right)
-                else:
-                    print ("Right value is a number.")
                 if (nodes[i].left.__class__.__name__ == "Node"):
-                    print ("Left value is a node.")
                     if (switched):
                         newNodes.insert(0, nodes[i].left)
                     else:
                         newNodes.append(nodes[i].left)
-                else:
-                    print ("Left value is a number.")
 
         switched = not switched
         layers.append(layer)
@@ -59,9 +53,3 @@ n1 = Node(1, n2, n3)
 
 print(zigzag_order(n1))
 # [1, 3, 2, 4, 5, 6, 7]
-
-# test = []
-# test.append(1);
-# test.append(2);
-# test.pop(0)
-# print(test)
